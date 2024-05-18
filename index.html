@@ -1,0 +1,145 @@
+air-for-share
+How it works Download Upgrade Feedback Login / Register
+Text
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #Container_1{
+    border: 10px solid black;
+    height: 600px;
+    width: 600px;
+    font-size: 20px;
+
+}
+#contain_2{
+    gap: 15px;
+}
+#i_1{
+    cursor: pointer;
+}
+#i_2{
+    cursor: pointer;
+}
+#i_4{
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+#i_3{
+    cursor: pointer;
+}
+#i_5{
+    cursor: pointer;
+
+}
+#i_6{
+    cursor: pointer;
+    text-decoration: underline;
+}
+    </style>
+</head>
+
+<body>
+    
+    <center>
+        <div id="Container_1">
+            <br><br><br>
+            <div id="contain_2">
+               <select id="select">
+                <option value="i1">normal</option>
+                <option value="i2">heading</option>
+                <option value="i3">subheading</option>
+
+               </select>
+                <i class="fa-solid fa-italic" id="i_1"></i>
+                <i class="fa-solid fa-bold" id="i_2"></i>
+                <i class="fa-solid fa-underline" id="i_3"></i>
+                <!-- <span id="i_4">heading</span> -->
+                <i class="fa-solid fa-bars" id="i_5"></i>
+                <span id="i_6">subhead</span>
+            </div>
+            <hr />
+            <br><br><br>
+            <div id="contain_3">
+                <h3>Quil rich text</h3>
+                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni est obcaecati placeat
+                    aliquid, libero excepturi perferendis ratione animi delectus magnam culpa, deserunt tempora eos
+                    laborum dignissimos. Provident, illo tempore.</p>
+            </div>
+           
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </center>
+
+
+
+
+
+    <script src="app.js">
+        
+var contain_3 = document.getElementById('contain_3')
+var i_1 = document.getElementById("i_1") 
+// var ital = contain_3.style.fontStyle = 'italic' 
+i_1.addEventListener('click', function(){
+    contain_3.style.fontStyle='italic'
+})
+
+var i_2 = document.getElementById('i_2')
+i_2.addEventListener('click', function () {
+    contain_3.style.fontWeight='bold'
+})
+
+
+
+var i_3 = document.getElementById('i_3')
+i_3.addEventListener('click', function () {
+    contain_3.style.textDecoration='underline' //    text-decoration: underline;
+})
+
+
+
+
+var i2 = document.getElementById('i2')
+i2.addEventListener('click', function () {
+    contain_3.style.fontSize = '24px' 
+})
+
+
+
+var i_5 = document.getElementById('i_5')
+var i_6 = document.getElementById('i_6')
+
+
+
+    </script>
+</body>
+
+</html>
+Clear Copy
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+© 2011-2024 AirForShare.com
+Made in BirdsCorp.com with ❤️
+ 
+
